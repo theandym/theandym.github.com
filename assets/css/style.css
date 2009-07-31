@@ -1,1 +1,44 @@
-css content here
+html { background:#eee; font-family:Helvetica, Arial, sans-serif; }
+
+body {}
+
+#wrapper { margin:0 auto; width:500px; }
+
+#header { color:#888; font-size:14px; margin:70px auto 30px auto; }
+.title { color:#222; font-size:25px; font-weight:bold; }
+
+#body p {
+	color:#777; 
+	font-size:18px;
+	font-weight:0; 
+	line-height:30px; 
+	margin:0 auto;
+	}
+#body h1 { 
+	color:#222; 
+	font-size:18px; 
+	margin:40px 0 10px 0; 
+	width:100%;
+	}
+#body p a:link, #body ul li a:link, #body p a:visited, #body ul li a:visited { 
+	border-bottom:none; 
+	color:#222; 
+	text-decoration:none;
+	}
+#body p a:hover, #body ul li a:hover, #body p a:active, #body ul li a:active { 
+	border-bottom:1px dashed #222; 
+	color:#222; 
+	padding-bottom:1px;
+	text-decoration:none;
+	}
+#body ul { line-height:24px; list-style-type:none; padding:0 0 0 20px; }
+#body ul li {
+	color:#777; 
+	font-size:18px;
+	font-weight:0; 
+	line-height:24px; 
+	margin:0 auto 10px auto;
+}
+
+#footer { margin:80px auto 10px auto; }
+#footer p { color:#777; font-size:14px; text-align:center; }
