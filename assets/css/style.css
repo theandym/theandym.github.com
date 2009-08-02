@@ -5,7 +5,13 @@ body {}
 #wrapper { margin:0 auto; width:500px; }
 
 #header { color:#888; font-size:14px; margin:70px auto 30px -5px; }
-.title { background:#FF0; color:#222; font-size:28px; font-weight:bold; padding:5px 5px 0 5px; }
+.title { 
+	background:#FF0;
+	color:#222; 
+	font-size:28px; 
+	font-weight:bold; 
+	padding:5px 5px 0 5px;
+	}
 
 #body p {
 	color:#777; 
