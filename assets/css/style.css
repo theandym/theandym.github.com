@@ -4,7 +4,7 @@ body {}
 
 #wrapper { margin:0 auto; width:500px; }
 
-#header { color:#888; font-size:14px; margin:120px auto 50px -5px; }
+#header { margin:120px auto 50px -5px; }
 .title { 
 	background:#FF0;
 	color:#222; 
@@ -17,17 +17,17 @@ body {}
 	color:#777; 
 	font-size:15pt;
 	font-weight:0; 
-	line-height:26pt; 
+	line-height:22pt; 
 	margin:0 auto;
 	}
 
-#body p a:link, #body ul li a:link, #body p a:visited, #body ul li a:visited { 
+a:link, a:visited { 
 	border-bottom:none; 
 	color:#222; 
 	padding:2px 0 1px 0;
 	text-decoration:none;
 	}
-#body p a:hover, #body ul li a:hover, #body p a:active, #body ul li a:active { 
+a:hover, a:active { 
 	background:#FF0;
 	/*border-bottom:1px dashed #222;*/
 	color:#222; 
