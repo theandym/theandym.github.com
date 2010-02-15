@@ -25,7 +25,38 @@
 <div id='wrapper'>
 	
 	<div id='header'>
-		<img src="assets/img/personal_logo_2010_feb.png" />
+		<script language="JavaScript" type="text/javascript">
+		
+		// Function that return a number between 0 and "nums - 1"
+		function getRandom(nums)
+		{
+		var ranNum= Math.round(Math.random()*nums);
+		return ranNum;
+		}
+
+		// Tells us how many images we have available.
+		var numberOfImages = 11;
+		var randomNumber = getRandom(numberOfImages);
+
+		// Create an array to hold the names of all images.
+		var image = new Array(numberOfImages);
+		image[0]="assets/img/personal_logo_2010_jan.png";
+		image[1]="assets/img/personal_logo_2010_feb.png";
+		image[2]="assets/img/personal_logo_2010_mar.png";
+		image[3]="assets/img/personal_logo_2010_apr.png";
+		image[4]="assets/img/personal_logo_2010_may.png";
+		image[5]="assets/img/personal_logo_2010_jun.png";
+		image[6]="assets/img/personal_logo_2010_jul.png";
+		image[7]="assets/img/personal_logo_2010_aug.png";
+		image[8]="assets/img/personal_logo_2010_sep.png";
+		image[9]="assets/img/personal_logo_2010_oct.png";
+		image[10]="assets/img/personal_logo_2010_nov.png";
+		image[11]="assets/img/personal_logo_2010_dec.png";
+
+		// Write the img tag with a random image name.
+		document.write("<img src='" + image[randomNumber] + "' />");
+
+		</script>
 	</div>
 	
 	<div id='body'>
