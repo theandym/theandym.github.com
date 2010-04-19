@@ -1,3 +1,13 @@
-References:
+### References ###
 
+
+HTML5 Resources:
 http://diveintohtml5.org/semantics.html
+
+
+HTML5 JavaScript shiv for IE to recognize and style the HTML5 elements:
+http://html5shiv.googlecode.com
+
+
+Reset Stylesheet including HTML5 elements:
+http://html5resetcss.googlecode.com
