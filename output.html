@@ -1,0 +1,50 @@
+<h1 id="html5css3framework">HTML5 / CSS3 Framework</h1>
+
+<h2 id="html5">HTML5</h2>
+
+<p>Lorem ipsum&#8230;</p>
+
+<h2 id="css3">CSS3</h2>
+
+<h3 id="selectors">Selectors</h3>
+
+<ul>
+<li><h4 id="attributeselectors">Attribute Selectors</h4>
+
+<ul>
+<li><p><code>[att^="value"]</code> <br />
+Match elements to an attribute that starts with the specified value   </p></li>
+<li><p><code>[att$="value"]</code> <br />
+Match elements to an attribute that ends with the specified value</p></li>
+<li><p><code>[att*="value"]</code> <br />
+Match elements to an attribute that contains the specified value</p></li>
+<li><p>Example:  </p>
+
+<pre><code>a[title$="tweetCC"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 140px;
+    height: 140px;
+    text-indent: -9999px;
+    }
+</code></pre></li>
+</ul></li>
+<li><h4 id="combinators">Combinators</h4>
+
+<p>Targets all siblings of an element that have the same parent:</p>
+
+<pre><code>div~img {
+    border: 1px solid #ccc;
+    }
+</code></pre></li>
+<li><h4 id="pseudo-classes">Pseudo-Classes</h4>
+
+<p>Target elements based on their positions in a parent’s list of child 
+elements. Can use a number, a number expression or the <code>odd</code> and <code>even</code> 
+keywords:</p>
+
+<pre><code>name="code"&gt;:nth-child(3n+4) { background-color: #ccc; }
+</code></pre></li>
+</ul>

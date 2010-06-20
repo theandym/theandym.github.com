@@ -26,15 +26,15 @@ CSS3
   
     * Example:  
 
-        a[title$="tweetCC"] {
-		    position: absolute;
-		    top: 0;
-		    right: 0;
-		    display: block;
-		    width: 140px;
-		    height: 140px;
-		    text-indent: -9999px;
-		    }
+            a[title$="tweetCC"] {
+		        position: absolute;
+		        top: 0;
+		        right: 0;
+		        display: block;
+		        width: 140px;
+		        height: 140px;
+		        text-indent: -9999px;
+		        }
 
 * #### Combinators
 
