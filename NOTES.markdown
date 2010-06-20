@@ -46,8 +46,11 @@ CSS3
 			
 * #### Pseudo-Classes
 
-    Target elements based on their positions in a parent’s list of child 
-    elements. Can use a number, a number expression or the `odd` and `even` 
-    keywords:
+    * `:nth-child(n)`  
+      Target elements based on their positions in a parent’s list of child
+      elements. Can use a number, a number expression or the `odd` and `even`
+      keywords:
 
-        name="code">:nth-child(3n+4) { background-color: #ccc; }
+            name="code">:nth-child(3n+4) { background-color: #ccc; }
+
+
