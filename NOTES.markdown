@@ -25,7 +25,6 @@ CSS3
       Match elements to an attribute that contains the specified value
   
     * Example:
-
         a[title$="tweetCC"] {
 		    position: absolute;
 		    top: 0;
