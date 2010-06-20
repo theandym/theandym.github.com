@@ -15,20 +15,20 @@ CSS3
 
 * #### Attribute selectors -
 
-    ###### Match elements to an attribute that starts with the specified value:
+    **Match elements to an attribute that starts with the specified value:**
 
         [att^="value"] 
 
-	###### Match elements to an attribute that ends with the specified value:
+    **Match elements to an attribute that ends with the specified value:**
 
         [att$="value"]
 
-    ###### Match elements to an attribute that contains the specified value
+    **Match elements to an attribute that contains the specified value**
 
         [att*="value"]
 
 
-    ###### Example:
+    **Example:**
 
         a[title$="tweetCC"] {
 		    position: absolute;
