@@ -4,7 +4,9 @@ HTML5 / CSS3 Framework
 Details
 -------
 
-This is a base site framework that implements HTML5 and CSS3.
+This is a base site framework that implements HTML5 and CSS3. It is intended to
+support all modern browsers, including Firefox 3+, Safari 4+, Chrome 5+, and 
+Internet Explorer 7+.
 
 
 License
@@ -15,6 +17,16 @@ to. It is licensed under the MIT License. See LICENSE file for full licensing
 details.
 
 
+Features
+--------
+
+* HTML5 Validated
+  
+* html5doctor.com Reset Stylesheet 1.4.1
+
+* jQuery 1.4.2
+  
+  
 References
 ----------
 
