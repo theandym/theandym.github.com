@@ -26,6 +26,8 @@ Features
 
 * jQuery 1.4.2
 
+* jQuery UI 1.8.5
+
 
 References
 ----------
