@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Hi, I'm Andy Macdonald</title>
+	<title>Andy Macdonald - Web developer. Designer. Communicator. Problem solver.</title>
 
 	<meta name="description" content="">
 
@@ -29,37 +29,48 @@
 		<script src="js/scripts.js"></script>
 
 	<!-- favicon -->
-		<link rel="shortcut icon" href="img/favicon.png">
+		<link rel="shortcut icon" href="img/favicon.ico">
 
 <body>
+	<header>		
+		<div id="header">
+			<div id="header_text">
+				<h1><span>Andy</span>Macdonald</h1>
+				<p>Web developer. Designer. Communicator. Problem solver.</p>
+			</div><!-- end #header_text -->
+			<div id="header_image">
+				<img src="img/headshot.png" alt="Hi!">
+			</div><!-- end #header_image -->
+		</div><!-- end #header -->
+	</header>
+	
+	<section>
+		 <div id="main">
+			 <div class="divider"></div>
+			  <ul>
+					 <!-- Icons by dribbble.com/gpritiranjan -->
+					 <li><a href="mailto:hi@theandym.com"><img src="img/icons/email.png" alt="Email"></a></li>
+					 <li><a href="https://twitter.com/theandym"><img src="img/icons/twitter.png" alt="Twitter"></a></li>
+					 <li><a href="http://www.linkedin.com/in/theandym"><img src="img/icons/linkedin.png" alt="LinkedIn"></a></li>
+					 <li><a href="http://dribbble.com/theandym"><img src="img/icons/dribbble.png" alt="Dribbble"></a></li>
+					 <li><a href="https://github.com/theandym"><img src="img/icons/github.png" alt="GitHub"></a></li>
+			  </ul>
+			  <!-- <div class="divider"></div> -->
+		 </div><!-- #main -->
+	</section>
+	
+	<script type="text/javascript">
 
-        <header>        
-                <img src="img/logo_site.png" alt="AM">
-        </header>
+	 var _gaq = _gaq || [];
+	 _gaq.push(['_setAccount', 'UA-11185335-1']);
+	 _gaq.push(['_trackPageview']);
 
-        <section id="main">
-         <p><span>Hi, I'm Andy Macdonald.</span> Follow what I've got going on (and get in touch)...</p>
-         <ul>
-                <li><a href="mailto:hi@theandym.com"><img src="img/icon_email.png"></a></li>
-                <li><a href="http://twitter.com/theandym"><img src="img/icon_twitter.png"></a></li>
-                <li><a href="http://www.linkedin.com/in/theandym"><img src="img/icon_linkedin.png"></a></li>
-                <li><a href="http://dribbble.com/theandym"><img src="img/icon_dribbble.png"></a></li>
-         </ul>
-        </section><!-- #main -->
-
-        <script type="text/javascript">
-
-         var _gaq = _gaq || [];
-         _gaq.push(['_setAccount', 'UA-11185335-1']);
-         _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-          })();
-        
-        </script>
-
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	  })();
+		
+	</script>
 </body>
 </html>

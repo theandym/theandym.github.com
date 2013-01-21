@@ -4,12 +4,15 @@
 
 /* Tags */
 
-html { background:#ebf0ef; }
+html {
+	background:#fff;
+	font-family:Helvetica, Arial, sans-serif;
+	}
 body {
-        margin:0 auto;
-        width:960px;
-        }
-        
+	margin:0 auto;
+	width:960px;
+	}
+
 /* IDs */
 
 
@@ -24,31 +27,54 @@ body {
     Template Elements
   ---------------------*/
 
-header {}
-header img {
-        display:block;
-        margin:0 auto;
-        }
+#header {
+	clear:both;
+	height:100px;
+	margin:80px auto 60px;
+}
+#header #header_text {
+	float:left;
+	margin-right:30px;
+	padding-top:18px;
+	text-align:right;
+	width:640px;
+}
+#header #header_text h1 {
+	font-size:50px;
+	text-transform:uppercase;
+	font-weight:100;
+}
+#header #header_text h1 span { font-weight:bold; }
+#header #header_text p {
+	color:#ccc;
+	font-size:15px;
+	font-weight:100;
+}
+#header #header_image {
+	float:left;
+	width:100px;
+}
+.divider {
+	border-top:1px solid #ddd;
+	clear:both;
+	height:1px;
+	margin:0 auto;
+	width:150px;
+}
 
-section#main {}
-section#main p {
-        color:#666666;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:1.7em;
-        line-height:1.4em;
-        margin:20px auto 60px;
-        padding-left:40px;
-        width:600px;
-        }
-section#main p span { font-weight:bold; }
-section#main ul {
-        list-style-type:none;
-        text-align:center;
-        }
-section#main ul li {
-        display:inline;
-        margin:0 15px;
-        }
+#main {
+	clear:both;
+	margin:60px auto 80px;
+}
+#main ul {
+	list-style-type:none;
+	margin:65px auto 0;
+	text-align:center;
+	}
+#main ul li {
+	display:inline;
+	margin:0 15px;
+	}
 
 /*--------------------------
     Page Specific Elements
