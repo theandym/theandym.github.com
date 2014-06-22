@@ -10,6 +10,7 @@ html {
 	}
 body {
 	margin:0 auto;
+	padding-top:80px;
 	width:960px;
 	}
 
@@ -18,6 +19,8 @@ body {
 
 /* Classes */
 
+.show { display:none; }
+.hide { display:inline-block; }
 
 /* Fonts */
 
@@ -29,36 +32,28 @@ body {
 
 #header {
 	clear:both;
-	height:100px;
-	margin:80px auto 60px;
+	text-align:center;
 }
 #header #header_text {
-	float:left;
-	margin-right:30px;
-	padding-top:18px;
-	text-align:right;
-	width:640px;
+	display:inline-block;
+	margin:auto 10px;
+	text-align:center;
+	text-transform:uppercase;
+	width:460px;
 }
+#header_text:hover .show { display:inline-block; }
+#header_text:hover .hide { display:none; }
 #header #header_text h1 {
 	font-size:50px;
-	text-transform:uppercase;
 	font-weight:100;
 }
 #header #header_text h1 span { font-weight:bold; }
-#header #header_text p {
-	color:#ccc;
-	font-size:15px;
-	font-weight:100;
-}
-#header #header_image {
-	float:left;
-	width:100px;
-}
+
 .divider {
 	border-top:1px solid #ddd;
 	clear:both;
 	height:1px;
-	margin:0 auto;
+	margin:40px auto;
 	width:150px;
 }
 
@@ -73,7 +68,7 @@ body {
 	}
 #main ul li {
 	display:inline;
-	margin:0 15px;
+	margin:0 10px;
 	}
 
 /*--------------------------
