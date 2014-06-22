@@ -10,8 +10,8 @@ html {
 	}
 body {
 	margin:0 auto;
-	padding-top:80px;
-	width:960px;
+	padding:50px;
+	width:600px;
 	}
 
 /* IDs */
@@ -19,8 +19,6 @@ body {
 
 /* Classes */
 
-.show { display:none; }
-.hide { display:inline-block; }
 
 /* Fonts */
 
@@ -30,46 +28,24 @@ body {
     Template Elements
   ---------------------*/
 
-#header {
-	clear:both;
-	text-align:center;
-}
-#header #header_text {
-	display:inline-block;
-	margin:auto 10px;
-	text-align:center;
-	text-transform:uppercase;
-	width:460px;
-}
-#header_text:hover .show { display:inline-block; }
-#header_text:hover .hide { display:none; }
-#header #header_text h1 {
-	font-size:50px;
-	font-weight:100;
-}
-#header #header_text h1 span { font-weight:bold; }
-
-.divider {
-	border-top:1px solid #ddd;
-	clear:both;
-	height:1px;
-	margin:40px auto;
-	width:150px;
-}
-
 #main {
 	clear:both;
-	margin:60px auto 80px;
-}
-#main ul {
-	list-style-type:none;
-	margin:65px auto 0;
+	display:block;
+	font-family:monospace;
 	text-align:center;
-	}
-#main ul li {
-	display:inline;
-	margin:0 10px;
-	}
+	text-transform:uppercase;
+}
+#main h1 {
+	color:#aaa;
+	font-size:22px;
+	font-weight:100;
+	letter-spacing:6px;
+	line-height:16px;
+}
+#main span {
+	color:#000;
+	font-weight:bold;
+}
 
 /*--------------------------
     Page Specific Elements
