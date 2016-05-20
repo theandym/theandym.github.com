@@ -1,54 +1,27 @@
-/*-----------
-    General
-  -----------*/
-
-/* Tags */
-
 html {
-	background:#fff;
-	font-family:Helvetica, Arial, sans-serif;
-	}
+	background: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+}
 body {
-	margin:0 auto;
-	padding:50px;
-	width:600px;
-	}
-
-/* IDs */
-
-
-/* Classes */
-
-
-/* Fonts */
-
-
-
-/*---------------------
-    Template Elements
-  ---------------------*/
-
-#main {
-	clear:both;
-	display:block;
-	font-family:monospace;
-	text-align:center;
-	text-transform:uppercase;
+	margin: 0 auto;
+	width: 600px;
+}
+a {
+	text-decoration: underline;
+}
+a:hover, a:active {
+	color: #666;
+}
+#main {}
+#main img {
+	display: block;
+	margin: 2em auto;
 }
 #main h1 {
-	color:#aaa;
-	font-size:22px;
-	font-weight:100;
-	letter-spacing:6px;
-	line-height:16px;
+	font-size: 2em;
+	margin: 1em auto;
 }
-#main span {
-	color:#000;
-	font-weight:bold;
+#main p {
+	line-height: 1.3em;
+	margin: 1em auto;
 }
-
-/*--------------------------
-    Page Specific Elements
-  --------------------------*/
-
-
