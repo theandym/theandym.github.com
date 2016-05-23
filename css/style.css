@@ -3,8 +3,8 @@ html {
 	font-family: Helvetica, Arial, sans-serif;
 }
 body {
-	margin: 0 auto;
-	width: 600px;
+	padding: 2em 0;
+	min-width: 400px;
 }
 a {
 	text-decoration: underline;
@@ -12,16 +12,30 @@ a {
 a:hover, a:active {
 	color: #666;
 }
-#main {}
-#main img {
-	display: block;
-	margin: 2em auto;
+#main {
+	margin: auto;
+	min-width: 350px;
+	max-width: 600px;
 }
-#main h1 {
-	font-size: 2em;
-	margin: 1em auto;
+#main #pic {
+	float: left;
+	padding: 0 3%;
+	width: 19%
 }
-#main p {
+#main #pic img {
+	width: 100%;
+	max-width: 150px;
+	min-width: 66px;
+}
+#main #content {
+	display: inline-block;
+	padding: 0 3%;
+	width: 69%
+}
+#main #content h1 {
+	font-size: 166%;
+}
+#main #content p {
 	line-height: 1.3em;
-	margin: 1em auto;
+	margin: 1.33em auto;
 }
