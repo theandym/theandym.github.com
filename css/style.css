@@ -7,10 +7,11 @@ body {
 	min-width: 400px;
 }
 a {
+	color: #666;
 	text-decoration: underline;
 }
 a:hover, a:active {
-	color: #666;
+	color: #000;
 }
 #main {
 	margin: auto;
@@ -20,22 +21,30 @@ a:hover, a:active {
 #main #pic {
 	float: left;
 	padding: 0 3%;
-	width: 19%
+	width: 27%
 }
 #main #pic img {
 	width: 100%;
-	max-width: 150px;
+	max-width: 200px;
 	min-width: 66px;
 }
 #main #content {
 	display: inline-block;
 	padding: 0 3%;
-	width: 69%
+	width: 61%
 }
 #main #content h1 {
 	font-size: 166%;
+	margin-bottom: 0.33em;
+}
+#main #content h2 {
+	color: #666;
+	font-size: 133%;
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: 0.33em;
 }
 #main #content p {
-	line-height: 1.3em;
+	line-height: 1.5em;
 	margin: 1.33em auto;
 }
